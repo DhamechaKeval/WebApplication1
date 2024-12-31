@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AddRotator.aspx" />
     <Content Include="Demo.aspx" />
+    <Content Include="fill_upload.aspx" />
     <Content Include="Photos\th.jpeg" />
     <Content Include="Web.config" />
     <Content Include="3numSum.aspx" />
@@ -89,6 +90,13 @@
     <Compile Include="Demo.aspx.designer.cs">
       <DependentUpon>Demo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="fill_upload.aspx.cs">
+      <DependentUpon>fill_upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="fill_upload.aspx.designer.cs">
+      <DependentUpon>fill_upload.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="3numSum.aspx.cs">
       <DependentUpon>3numSum.aspx</DependentUpon>
@@ -107,7 +115,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="FILES\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
