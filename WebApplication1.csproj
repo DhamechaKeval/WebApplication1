@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddRotator.aspx" />
+    <Content Include="Calender.aspx" />
     <Content Include="Demo.aspx" />
     <Content Include="fill_upload.aspx" />
     <Content Include="Photos\th.jpeg" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="AddRotator.aspx.designer.cs">
       <DependentUpon>AddRotator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Calender.aspx.cs">
+      <DependentUpon>Calender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calender.aspx.designer.cs">
+      <DependentUpon>Calender.aspx</DependentUpon>
     </Compile>
     <Compile Include="Demo.aspx.cs">
       <DependentUpon>Demo.aspx</DependentUpon>
