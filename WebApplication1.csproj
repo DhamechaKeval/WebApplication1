@@ -68,11 +68,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddRotator.aspx" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="Calender.aspx" />
     <Content Include="Demo.aspx" />
     <Content Include="fill_upload.aspx" />
     <Content Include="multiview.aspx" />
     <Content Include="Photos\th.jpeg" />
+    <Content Include="registration.aspx" />
     <Content Include="Web.config" />
     <Content Include="3numSum.aspx" />
     <Content Include="WebForm1.aspx" />
@@ -128,6 +133,13 @@
     </Compile>
     <Compile Include="3numSum.aspx.designer.cs">
       <DependentUpon>3numSum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registration.aspx.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration.aspx.designer.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
